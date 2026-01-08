@@ -184,7 +184,7 @@ class _HomescreenState extends State<Homescreen> {
                           child: TextField(
                             controller: _inputController,
                             keyboardType: TextInputType.number,
-                            onChanged: (_) => _convertCurrency(),
+                            
                             style: GoogleFonts.orbitron(
                               color: Colors.white,
                               fontSize: 18,
